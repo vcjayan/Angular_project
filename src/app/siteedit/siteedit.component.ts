@@ -15,7 +15,7 @@ export class SiteeditComponent implements OnInit {
   id:number;
   private sub: any;
   public details: Array<object> = [];
-  RFID ="";
+  RFID ='';
 
   constructor(private apiService:ApiService, private router:Router, private route:ActivatedRoute) { }
 

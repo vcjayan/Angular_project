@@ -14,7 +14,7 @@ import { NgForm } from '@angular/forms';
 })
 export class SitelistComponent implements OnInit {
   
-  private details: Array<object> = [];
+  public details: Array<object> = [];
 
   constructor(private apiService:ApiService, private router:Router) { }
 

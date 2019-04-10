@@ -14,7 +14,7 @@ import { ActivatedRoute } from '@angular/router';
 export class SiteeditComponent implements OnInit {
   id:number;
   private sub: any;
-  private details: Array<object> = [];
+  public details: Array<object> = [];
   RFID ="";
 
   constructor(private apiService:ApiService, private router:Router, private route:ActivatedRoute) { }

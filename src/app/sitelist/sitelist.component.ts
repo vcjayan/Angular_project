@@ -5,8 +5,6 @@ import { VILKerala } from '../assetmodel'
 import { NgForm } from '@angular/forms';
 
 
-
-
 @Component({
   selector: 'app-sitelist',
   templateUrl: './sitelist.component.html',
@@ -15,6 +13,7 @@ import { NgForm } from '@angular/forms';
 export class SitelistComponent implements OnInit {
   
   public details: Array<object> = [];
+  filtertext=""
 
   constructor(private apiService:ApiService, private router:Router) { }
 
